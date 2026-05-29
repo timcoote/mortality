@@ -45,7 +45,8 @@ jobs:
         run: npm install -g mystmd
       # Build the book
       - name: Build the book
-        run: jupyter book build mortality
+        working-directory: ./mortality
+        run: jupyter book build
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
