@@ -17,4 +17,6 @@ project:
 site:
   options:
     folders: true
+    hide_toc: true
+
   template: article-theme
