@@ -46,14 +46,14 @@ jobs:
       # Build the book
       - name: Build the book
         working-directory: ./mortality
-        run: jupyter book build
+        run: jupyter book build --html
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          #path: "mortality/_build/html"
-          path: "mortality/_build/site"
+          path: "mortality/_build/html"
+          #path: "mortality/_build/site"
 
       # Deploy the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
