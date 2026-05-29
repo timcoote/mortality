@@ -17,4 +17,4 @@ project:
 site:
   options:
     folders: true
-  template: book-theme
+  template: article-theme
