@@ -1,6 +1,6 @@
 # Mortality
 
-[D
+Taken originally from cookiecutter. Modified by jupyter book v2
 
 ## Usage
 
